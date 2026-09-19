@@ -9,3 +9,7 @@ Answer: Healthcare. For example, hospitals can train models on past patient reco
 Q3: What is the difference between Merging and Rebasing?
 
 Answer: Merging combines two branches by creating a new merge commit that has both branches as parents, so the history keeps the original shape of both branches. Rebasing instead takes the commits from one branch and replays them on top of the other branch, rewriting them as new commits, which produces a straight-line history with no extra merge commit.
+
+Q4: What are you looking forward to this semester?
+
+Answer: I am looking forward to working with real datasets and learning how to go from raw data to a clear result, especially getting more comfortable with pandas and building visualizations that actually tell a story.
