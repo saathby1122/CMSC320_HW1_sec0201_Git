@@ -1,15 +1,15 @@
 Q1: Why might we consider using Git?
 
-Answer: Git keeps a full history of every change to a project, so we can see who changed what and when, and roll back if something breaks. It also lets multiple people work on the same codebase at once through branches, and merge their work together in a controlled way instead of emailing files back and forth.
+Answer: Mostly so I don't lose my work. Git saves snapshots of everything so if I mess something up I can just go back to an older version instead of trying to remember what I changed. It also makes group projects way less painful since everyone can work on their own branch and combine stuff later instead of sending files back and forth.
 
 Q2: What field could data science be applied to? Give an Example.
 
-Answer: Healthcare. For example, hospitals can train models on past patient records to predict which patients are at high risk of being readmitted after discharge, so doctors can follow up with them earlier.
+Answer: Sports. Like in basketball, teams use tracking data on shot locations and player movement to figure out which shots are actually worth taking, which is a big part of why everyone shoots so many threes now.
 
 Q3: What is the difference between Merging and Rebasing?
 
-Answer: Merging combines two branches by creating a new merge commit that has both branches as parents, so the history keeps the original shape of both branches. Rebasing instead takes the commits from one branch and replays them on top of the other branch, rewriting them as new commits, which produces a straight-line history with no extra merge commit.
+Answer: Merging takes two branches and combines them with a new merge commit, so you can still see in the log that the branches split off and came back together. Rebasing moves your commits and puts them on top of the other branch like they were made there all along, so you get one straight line of commits and no merge commit. Merging keeps the real history, rebasing gives you a cleaner one.
 
 Q4: What are you looking forward to this semester?
 
-Answer: I am looking forward to working with real datasets and learning how to go from raw data to a clear result, especially getting more comfortable with pandas and building visualizations that actually tell a story.
+Answer: Honestly just getting better at actually working with data instead of only hearing about it. I want to get comfortable with pandas and be able to take a random dataset and pull something interesting out of it. Also hoping the final project is something I can put on a resume.
