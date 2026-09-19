@@ -5,3 +5,7 @@ Answer: Git keeps a full history of every change to a project, so we can see who
 Q2: What field could data science be applied to? Give an Example.
 
 Answer: Healthcare. For example, hospitals can train models on past patient records to predict which patients are at high risk of being readmitted after discharge, so doctors can follow up with them earlier.
+
+Q3: What is the difference between Merging and Rebasing?
+
+Answer: Merging combines two branches by creating a new merge commit that has both branches as parents, so the history keeps the original shape of both branches. Rebasing instead takes the commits from one branch and replays them on top of the other branch, rewriting them as new commits, which produces a straight-line history with no extra merge commit.
